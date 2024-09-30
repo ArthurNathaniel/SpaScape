@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="./css/services.css">
 </head>
 <body>
+<?php include 'navbar.php'?>
     <div class="services_bg">
-        
+<div class="services_all">
+    
+</div>
     </div>
     
 </body>
