@@ -1,11 +1,44 @@
-.services_bg{
+/* .services_bg{
     background-image: url(../images/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
     height: 100vh;
-}
+    overflow-x: scroll;
+} */
 
 .services_all{
-    
+    /* background-color: #0000009a; */
+    height: 100%;
+    padding: 0 10%;
+    padding-block: 50px;
+}
+
+.services_grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 20px;
+
+}
+
+.services_card{
+    background-color: #ffffff;
+}
+.services_card img{
+    width: 100%;
+    height: 200px;
+}
+
+.services_details{
+    padding: 0 5%;
+    padding-block: 15px;
+}
+
+.services_details button{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: #B88A44;
+    color: #FFF;
+    border: none;
 }

@@ -13,9 +13,7 @@ body {
   font-style: normal;
   background-color: #f4f5ff;
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: "Bricolage Grotesque", sans-serif;
-}
+
 .logo {
     height: 90px;
     width: 200px;
@@ -66,7 +64,6 @@ h1,h2,h3,h4,h5,h6{
     gap: 10px;
     justify-content: center;
     align-items: center;
-    font-family: "Bricolage Grotesque", sans-serif;
     text-transform: uppercase;
   }
   

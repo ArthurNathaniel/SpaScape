@@ -1,0 +1,92 @@
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+.massage-info {
+    margin-bottom: 40px;
+}
+.massage-info h3 {
+    color: #B88A44;
+    margin-bottom: 10px;
+}
+.massage-info p {
+    margin-bottom: 15px;
+}
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+.price-table th, .price-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* text-align: center; */
+}
+.price-table th {
+    background-color: #B88A44;
+    color: #FFF;
+    text-align: left;
+}
+.price-table td {
+    background-color: #fff;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    padding-block: 20px;
+    margin-top: 50px;
+}
+
+.gallery_all {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* padding: 0 5%; */
+    gap: 30px;
+}
+
+.gallery {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-block: 40px;
+}
+ th,  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* text-align: center; */
+}
+ th {
+    background-color: #B88A44;
+    color: #FFF;
+    text-align: left;
+}
+ td {
+    background-color: #fff;
+}
