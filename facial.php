@@ -56,6 +56,10 @@
                     <td>700</td>
                 </tr>
                 <tr>
+                    <td>Vigierala Hub</td>
+                    <td>300 upward</td>
+                </tr>
+                <tr>
                     <td>Microneedling on Body Parts</td>
                     <td>By Appointment</td>
                 </tr>

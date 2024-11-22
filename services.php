@@ -59,7 +59,18 @@
                 <div class="services_card">
                     <img src="./images/teeth.jpeg" alt="">
                     <div class="services_details">
-                        <h3>Teeth Whitening</h3>
+                        <h3>Teeth Whitening & Cleaning</h3>
+                        <a href="teeth_whitening.php">
+                            <button>Read more</button>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="services_card">
+                    <img src="./images/teeth.jpeg" alt="">
+                    <div class="services_details">
+                        <h3>Manicure</h3>
                         <a href="teeth_whitening.php">
                             <button>Read more</button>
                         </a>

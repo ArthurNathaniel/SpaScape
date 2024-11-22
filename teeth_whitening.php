@@ -17,12 +17,7 @@
             padding: 20px;
         }
 
-        h1,
-        h2 {
-            text-align: center;
-            color: #006600;
-            margin-bottom: 30px;
-        }
+     
 
         table {
             width: 100%;
@@ -42,11 +37,7 @@
             text-align: left;
         }
 
-        th {
-            background-color: #006600;
-            color: white;
-        }
-
+      
         .teeth-info,
         .why-teeth-whitening {
             margin-bottom: 40px;
@@ -65,14 +56,20 @@
             font-style: italic;
         }
 
-    
+        @media only screen and (max-width: 1110px) {
+    .gallery_all{
+      display: grid ;
+      grid-template-columns: 1fr;
+    }
+  }
     </style>
 </head>
 
 <body>
+<?php include 'navbar.php'?>
 
     <div class="container">
-        <h1>The Rub Haven - Teeth Whitening</h1>
+        <h1>The Rub Haven - Teeth Whitening & Cleaning</h1>
 
         <!-- Teeth Whitening Description -->
         <section class="teeth-info">
@@ -90,24 +87,28 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>1 Session</td>
-                    <td>300</td>
+                    <td>Whitening</td>
+                    <td>400</td>
                 </tr>
                 <tr>
                     <td>2 Sessions</td>
-                    <td>500</td>
+                    <td>600</td>
                 </tr>
                 <tr>
                     <td>3 Sessions</td>
-                    <td>750</td>
-                </tr>
-                <tr>
-                    <td>4 Sessions</td>
                     <td>1000</td>
                 </tr>
                 <tr>
-                    <td>5 Sessions (Pay for 5, Get 1 Free)</td>
-                    <td>900</td>
+                    <td>Teeth Cleaning (TC)</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>TC + Whitening</td>
+                    <td>600</td>
+                </tr>
+                <tr>
+                    <td>Whitening Products</td>
+                    <td>Enquire</td>
                 </tr>
             </tbody>
         </table>
@@ -130,22 +131,20 @@
         <!-- Teeth Whitening Video Section -->
         <div class="gallery_all">
             <div class="gallery">
-                <a href="./images/1.jpg" data-fancybox="gallery">
-                    <img src="./images/1.jpg" alt="Image 1">
+                <a href="./images/teeth-1.jpeg" data-fancybox="gallery">
+                    <img src="./images/teeth-1.jpeg" alt="Image 1">
                 </a>
             </div>
             <div class="gallery">
-                <a href="./images/1.jpg" data-fancybox="gallery">
-                    <img src="./images/1.jpg" alt="Image 1">
+                <a href="./images/teeth-2.jpeg" data-fancybox="gallery">
+                    <img src="./images/teeth-2.jpeg" alt="Image 1">
                 </a>
             </div>
         </div>
 
-        <!-- Footer -->
-        <footer>
-            &copy; 2024 The Rub Haven Spa, Kumasi. All rights reserved.
-        </footer>
+      
     </div>
+    <?php include 'footer.php'?>
     <script>
         $(document).ready(function () {
             $('[data-fancybox]').fancybox();

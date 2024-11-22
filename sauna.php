@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Rub Haven - Sauna Services</title>
+    <?php include 'cdn.php' ?>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/massage.css">
 
@@ -12,7 +13,7 @@
 </head>
 
 <body>
-
+<?php include 'navbar.php' ?>
     <div class="container">
         <h1>The Rub Haven - Sauna Services</h1>
 
@@ -22,7 +23,8 @@
             <p>A sauna is a room designed to offer dry heat therapy, where the temperature typically ranges from 70° to 100°C. 
                The heat induces perspiration, which helps detoxify the body and promotes relaxation.</p>
         </section>
-
+<br>
+<br>
         <!-- Sauna Price Table -->
         <h2>Sauna Sessions & Price List</h2>
         <table class="price-table">
@@ -59,16 +61,15 @@
             <li>Reduces stress and helps induce deep sleep</li>
         </ul>
 
-        <!-- Sauna Video Section -->
-        <div class="video-container">
-            <video src="./video/sauna.mp4" controls></video>
-        </div>
+       <br>
 
-        <!-- Footer -->
-        <footer>
-            &copy; 2024 The Rub Haven Spa, Kumasi. All rights reserved.
-        </footer>
+        <!-- <div class="video-container">
+            <video src="./video/sauna.mp4" controls></video>
+        </div> -->
+
+      
     </div>
+    <?php include 'footer.php';?>
     <script>
         $(document).ready(function () {
             $('[data-fancybox]').fancybox();

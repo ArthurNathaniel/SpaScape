@@ -22,7 +22,7 @@
                 <p class="welcome_text">
                     Your oasis of tranquility in the heart of Kumasi, Ghana. Located at Atasomanso, 
                     adjacent to World Links Academy, our spa is dedicated to providing a haven of 
-                    relaxation and rejuvenation.
+                    relaxation and rejuvenation \.
                 </p>
             </div>
            

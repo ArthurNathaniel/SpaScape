@@ -125,3 +125,14 @@ body {
       border-top: 2px dashed #dad9da;
       margin-top: 30px;
   }
+
+  @media only screen and (max-width: 1110px) {
+    .gallery_all{
+      display: grid !important;
+      grid-template-columns: 1fr !important;
+    }
+    .services_grid{
+      display: grid !important;
+      grid-template-columns: 1fr !important;
+    }
+  }
